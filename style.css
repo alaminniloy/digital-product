@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* This is Header Nav bar  Style */
+.menu-container{
+    background-color: black;
+    padding:20px ;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 120px;
+}
+.menus{
+    display: flex;
+    gap: 5px;
+}
+.item{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+/* hover */
+.item:hover{
+    color: crimson;
+}
